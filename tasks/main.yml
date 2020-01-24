@@ -1,4 +1,9 @@
 ---
 # tasks file for ansible-pacman
-- fail:
-    msg: This role is not implemented yet!
+- name: Write pacman.conf
+  template:
+    src: config.j2
+    dest: /etc/pacman.conf
+    owner: root
+    group: root
+    mode: '0644'

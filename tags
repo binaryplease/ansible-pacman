@@ -12,3 +12,4 @@ License	README.md	/^License$/;"	s
 Requirements	README.md	/^Requirements$/;"	s
 Role Name	README.md	/^Role Name$/;"	c
 Role Variables	README.md	/^Role Variables$/;"	s
+Write pacman.conf	tasks/main.yml	/^- name: Write pacman.conf$/;"	p
